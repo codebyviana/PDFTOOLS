@@ -1,0 +1,43 @@
+# PDF Tools
+
+O PDF Tools é um projeto desenvolvido em Python para facilitar a organização de arquivos PDF.
+
+A aplicação permite selecionar diferentes arquivos PDF e juntar todos em um único documento, de forma simples e rápida.
+
+## Tecnologias utilizadas
+
+- Python
+- Flask
+- HTML
+- CSS
+
+## Funcionalidades
+
+- Selecionar arquivos PDF.
+- Visualizar os arquivos selecionados.
+- Juntar vários arquivos em um único PDF.
+- Gerar um novo arquivo com os documentos unidos.
+
+## Como executar
+
+Clone o repositório:
+
+    git clone URL_DO_REPOSITORIO
+
+Entre na pasta do projeto:
+
+    cd pdf-tools
+
+Instale as dependências:
+
+    pip install -r requirements.txt
+
+Execute a aplicação:
+
+    python app.py
+
+Depois, abra no navegador o endereço informado no terminal.
+
+## Objetivo
+
+O projeto foi desenvolvido para praticar Python e trabalhar com manipulação de arquivos, integração entre back-end e front-end e desenvolvimento de aplicações web.

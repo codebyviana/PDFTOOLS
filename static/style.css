@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f6fa;
+    color: #252525;
+}
+
+header {
+    padding: 25px 8%;
+    background: white;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #6558d3;
+}
+
+header p {
+    margin-top: 8px;
+    color: #777;
+    font-size: 14px;
+}
+
+main {
+    padding: 65px 20px;
+}
+
+.container {
+    max-width: 650px;
+    margin: auto;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.titulo h1 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.titulo p {
+    color: #777;
+}
+
+.upload-area {
+    background: white;
+    border: 2px dashed #c9c5e8;
+    border-radius: 15px;
+    padding: 45px 20px;
+    text-align: center;
+}
+
+.icone {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.upload-area h2 {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.upload-area p {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.botao {
+    display: inline-block;
+    background: #6558d3;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background: #5044b5;
+}
+
+.botao-juntar {
+    width: 100%;
+    padding: 16px;
+    margin-top: 22px;
+    border: none;
+    border-radius: 8px;
+    background: #6558d3;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.aviso {
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+    margin-top: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #999;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 22px;
+    }
+
+    main {
+        padding: 45px 18px;
+    }
+
+    .titulo h1 {
+        font-size: 27px;
+    }
+
+    .upload-area {
+        padding: 35px 15px;
+    }
+
+    #lista-arquivos {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.arquivo-item {
+    background: #f5f4fc;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    color: #444;
+    overflow-wrap: anywhere;
+}
+}
